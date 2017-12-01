@@ -22,15 +22,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loginFragment =
-                (LoginFragment)getSupportFragmentManager().findFragmentById(R.id.fragment);
-        mainActivityEvents=new MainActivityEvents(this);
+        loginFragment = (LoginFragment)getSupportFragmentManager().findFragmentById(R.id.fragment);
+        mainActivityEvents = new MainActivityEvents(this);
         loginFragment.setListener(mainActivityEvents);
-        registerFragment =
-                (RegisterFragment) getSupportFragmentManager().findFragmentById(R.id.fragment2);
+        registerFragment = (RegisterFragment) getSupportFragmentManager().findFragmentById(R.id.fragment2);
 
 
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(loginFragment);
+        transition.commit();
         //transition.hide(registerFragment);
         //transition.hide(loginFragment);
         //transition.commit();
