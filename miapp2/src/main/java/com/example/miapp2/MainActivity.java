@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     MainActivityEvents mainActivityEvents;
     public FireBaseAdmin fireBaseAdmin;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +68,7 @@ class MainActivityEvents implements LoginFragmentListener,FireBaseAdminListener{
 
     @Override
     public void OnLoginClicked() {
-        String email = "alex@gmail.com";
+        String email = "aalex@gmail.com";
         String pwd = "123123";
 
         fireBaseAdmin.loginWithEmailPass(email,pwd);
