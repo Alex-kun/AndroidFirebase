@@ -36,13 +36,11 @@ public class MainActivity extends AppCompatActivity {
         transition.hide(registerFragment);
         transition.hide(listFragment);
         transition.commit();
-        //transition.hide(registerFragment);
-        //transition.hide(loginFragment);
-        //transition.commit();
+
 
         /*fireBaseAdmin=new FireBaseAdmin(this);
         fireBaseAdmin.setListener(mainActivityEvents);
-        fireBaseAdmin.loginWithEmailPass("Yony","PASS");*/
+        fireBaseAdmin.loginWithEmailPass("alex@gmail.com","123123");*/
     }
 }
 
