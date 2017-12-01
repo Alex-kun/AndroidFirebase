@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidYony.iml" filepath="$PROJECT_DIR$/AndroidYony.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiApp1.iml" filepath="$PROJECT_DIR$/MiApp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miapp2/miapp2.iml" filepath="$PROJECT_DIR$/miapp2/miapp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/milib/milib.iml" filepath="$PROJECT_DIR$/milib/milib.iml" />
+    </modules>
+  </component>
+</project>

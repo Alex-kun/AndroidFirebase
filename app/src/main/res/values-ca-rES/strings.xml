@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Meva Aplicacio 1</string>
+    <string name="hola_mundo">Hola Mon</string>
+    <string name="mi_boton">Mi Boton</string>
+</resources>
