@@ -11,13 +11,15 @@ import com.example.milib.FireBaseAdmin;
 import com.example.milib.fragments.ListFragment;
 import com.example.milib.fragments.RegisterFragment;
 
+import static com.example.milib.FireBaseAdmin.*;
+
 public class MainActivity extends AppCompatActivity {
 
     public LoginFragment loginFragment;
     public RegisterFragment registerFragment;
     public ListFragment listFragment;
     MainActivityEvents mainActivityEvents;
-    FireBaseAdmin fireBaseAdmin;
+    public FireBaseAdmin fireBaseAdmin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-class MainActivityEvents implements LoginFragmentListener,FireBaseAdmin.FireBaseAdminListener{
+class MainActivityEvents implements LoginFragmentListener,FireBaseAdminListener{
     MainActivity mainActivity;
+    FireBaseAdmin fireBaseAdmin;
 
     public MainActivityEvents(MainActivity mainActivity){
+
         this.mainActivity=mainActivity;
+
     }
 
     @Override
@@ -62,6 +67,10 @@ class MainActivityEvents implements LoginFragmentListener,FireBaseAdmin.FireBase
 
     @Override
     public void OnLoginClicked() {
+        String email = "alex@gmail.com";
+        String pwd = "123123";
+
+        fireBaseAdmin.loginWithEmailPass(email,pwd);
 
     }
 

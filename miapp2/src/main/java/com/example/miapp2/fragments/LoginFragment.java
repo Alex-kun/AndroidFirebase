@@ -57,8 +57,8 @@ class LoginFragmentEvents implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.btnregister){
-            if(this.loginFragment.listener!=null)
-                this.loginFragment.listener.OnRegisteredClicked();
+                if(this.loginFragment.listener!=null)
+                    this.loginFragment.listener.OnRegisteredClicked();
         }
         else if(view.getId() == R.id.btnlogin){
             if(this.loginFragment.listener!=null)
