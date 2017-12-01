@@ -8,12 +8,14 @@ import android.os.Bundle;
 import com.example.miapp2.fragments.LoginFragment;
 import com.example.miapp2.fragments.LoginFragmentListener;
 import com.example.milib.FireBaseAdmin;
+import com.example.milib.fragments.ListFragment;
 import com.example.milib.fragments.RegisterFragment;
 
 public class MainActivity extends AppCompatActivity {
 
     public LoginFragment loginFragment;
     public RegisterFragment registerFragment;
+    public ListFragment listFragment;
     MainActivityEvents mainActivityEvents;
     FireBaseAdmin fireBaseAdmin;
 
@@ -26,10 +28,13 @@ public class MainActivity extends AppCompatActivity {
         mainActivityEvents = new MainActivityEvents(this);
         loginFragment.setListener(mainActivityEvents);
         registerFragment = (RegisterFragment) getSupportFragmentManager().findFragmentById(R.id.fragment2);
+        listFragment = (ListFragment) getSupportFragmentManager().findFragmentById(R.id.fragment3);
 
 
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(loginFragment);
+        transition.hide(registerFragment);
+        transition.hide(listFragment);
         transition.commit();
         //transition.hide(registerFragment);
         //transition.hide(loginFragment);
