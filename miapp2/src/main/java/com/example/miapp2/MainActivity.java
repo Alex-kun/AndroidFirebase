@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
-        transition.hide(registerFragment);
-        transition.hide(loginFragment);
-        transition.commit();
+        //transition.hide(registerFragment);
+        //transition.hide(loginFragment);
+        //transition.commit();
 
         /*fireBaseAdmin=new FireBaseAdmin(this);
         fireBaseAdmin.setListener(mainActivityEvents);

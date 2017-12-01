@@ -1,39 +1,35 @@
 {
   "project_info": {
-    "project_number": "660076193649",
-    "firebase_url": "https://x-pathway-512.firebaseio.com",
-    "project_id": "x-pathway-512",
-    "storage_bucket": "x-pathway-512.appspot.com"
+    "project_number": "875290233034",
+    "firebase_url": "https://test-mac-1-623fb.firebaseio.com",
+    "project_id": "test-mac-1-623fb",
+    "storage_bucket": "test-mac-1-623fb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:660076193649:android:b0ec621acb955faa",
+        "mobilesdk_app_id": "1:875290233034:android:b0ec621acb955faa",
         "android_client_info": {
           "package_name": "com.example.miapp2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "660076193649-j68jl46tmem57mdlf8e4pfep3b54c9t9.apps.googleusercontent.com",
+          "client_id": "875290233034-c8q0gc0e8lasnnv6hrsgas8tm0sotdeo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.miapp2",
-            "certificate_hash": "8ad828ad2b883c26d1a3313b0d90f6dfcf2fb767"
+            "certificate_hash": "5212a824589d19ca155a2770b0b06c5b74ef2fef"
           }
         },
         {
-          "client_id": "660076193649-pbk5vlf618klgrcooqpujj7emc3oln93.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "660076193649.apps.googleusercontent.com",
+          "client_id": "875290233034-gk21cj841ba261msid15r2gukran4mhr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBySR4ujP98Nw8wRE7Jhrav4A9eyLAuG4Q"
+          "current_key": "AIzaSyD19Ch4067ce4oJoeoaJaNmBxHD86pne3g"
         }
       ],
       "services": {
@@ -44,15 +40,8 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "660076193649-pbk5vlf618klgrcooqpujj7emc3oln93.apps.googleusercontent.com",
+              "client_id": "875290233034-gk21cj841ba261msid15r2gukran4mhr.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "660076193649-840p6pcqu2ucsp3486ibpf7h0kjh854t.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "UTAD.Actividad1a"
-              }
             }
           ]
         },
